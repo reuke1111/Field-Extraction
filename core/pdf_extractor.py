@@ -16,6 +16,12 @@ from core.ocr_engine import OCREngine
 logger = logging.getLogger(__name__)
 
 # Check PyMuPDF availability
+# Prevent pymupdf.layout and pymupdf4llm from loading onnxruntime, which causes a C++ access violation on Python 3.14 Windows
+import sys
+sys.modules.setdefault("pymupdf.layout", None)  # type: ignore
+sys.modules.setdefault("pymupdf4llm", None)  # type: ignore
+sys.modules.setdefault("onnxruntime", None)  # type: ignore
+
 _FITZ_AVAILABLE = False
 try:
     import fitz

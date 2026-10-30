@@ -5,6 +5,7 @@ Page 3: Extraction Results & Evidence Inspection
 import streamlit as st
 from database.repository import Repository
 from models.scheme import REQUIRED_SCHEME_FIELDS
+from ui import render_md_table
 
 def render_extraction_review():
     st.title("🔍 Extraction Results & Evidence Inspection")
@@ -53,7 +54,7 @@ def render_extraction_review():
                 "Status": f.status.upper(),
                 "Review State": review_state
             })
-    st.table(table_data)
+    render_md_table(table_data)
 
     st.markdown("---")
     st.subheader("🔬 Deep Evidence & Citation Inspector")

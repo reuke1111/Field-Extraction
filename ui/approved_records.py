@@ -9,6 +9,7 @@ import io
 import streamlit as st
 from database.repository import Repository
 from models.scheme import REQUIRED_SCHEME_FIELDS
+from ui import render_md_table
 
 def render_approved_records():
     st.title("📦 Approved Scheme Records & Catalog Export")
@@ -117,4 +118,4 @@ def render_approved_records():
                         "Page": ev_page,
                         "Evidence Verified": "✅ Confirmed" if (f.evidence and f.evidence.verified) else "⚠️"
                     })
-            st.table(rows)
+            render_md_table(rows)

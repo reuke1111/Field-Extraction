@@ -8,6 +8,7 @@ import streamlit as st
 from config import INPUT_TOKEN_PRICE_PER_M, OUTPUT_TOKEN_PRICE_PER_M
 from evaluation.evaluation_runner import EvaluationRunner
 from database.repository import Repository
+from ui import render_md_table
 
 def render_evaluation():
     st.title("📈 Ground-Truth Evaluation & Cost Estimation")
@@ -71,7 +72,7 @@ def render_evaluation():
             "Fields Evaluated": data.get("fields_evaluated", 0),
             "Accuracy": f"{data.get('accuracy', 0.0) * 100:.1f}%"
         })
-    st.table(f_rows)
+    render_md_table(f_rows)
 
     st.markdown("---")
     st.subheader("🔬 Scheme-by-Scheme Field Comparisons")
@@ -90,7 +91,7 @@ def render_evaluation():
                     "Evidence Verified": "✅" if fe.get("evidence_verified") else "❌",
                     "Confidence": f"{fe.get('confidence', 0.0) * 100:.1f}%"
                 })
-            st.table(rows)
+            render_md_table(rows)
 
     st.markdown("---")
     # Cost Estimation Section

@@ -6,6 +6,7 @@ Summary metrics, system status, and visual overview.
 import streamlit as st
 from database.repository import Repository
 from evaluation.evaluation_runner import EvaluationRunner
+from ui import render_md_table
 
 def render_dashboard():
     st.title("🏛️ Haqdarshak Scheme Knowledge Extraction System")
@@ -73,6 +74,6 @@ def render_dashboard():
                 "Scanned": "Yes (OCR)" if d.has_scanned_pages else "Digital",
                 "Captured At": d.captured_at
             })
-        st.table(doc_rows)
+        render_md_table(doc_rows)
     else:
         st.info("No documents uploaded yet. Go to 'Document Upload' to ingest your first PDF.")
