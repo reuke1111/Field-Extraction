@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "description": "Ground truth annotations for Haqdarshak AI Scheme Extraction evaluation.",
+    "version": "1.0.0",
+    "created_at": "2026-10-30",
+    "eval_cases": [
+      "DOC-001",
+      "DOC-002",
+      "DOC-003",
+      "CAT-001"
+    ]
+  },
+  "schemes": {
+    "SCHEME-001": {
+      "scheme_ref": "SCHEME-001",
+      "source_id": "DOC-001",
+      "document_filename": "doc_a_english_scheme.pdf",
+      "language": "en",
+      "document_type": "digital_pdf",
+      "expected_fields": {
+        "scheme_name": {
+          "value": "State Women Entrepreneurship Assistance Scheme",
+          "status": "found",
+          "page": 1,
+          "section": "Title",
+          "evidence": "STATE WOMEN ENTREPRENEURSHIP ASSISTANCE SCHEME (SWEAS)"
+        },
+        "department": {
+          "value": "Department of Women Development and Social Welfare",
+          "status": "found",
+          "page": 1,
+          "section": "1. Administrative Department",
+          "evidence": "This scheme is administered under the Department of Women Development and Social Welfare."
+        },
+        "benefits": {
+          "value": "50000",
+          "status": "found",
+          "page": 1,
+          "section": "2. Financial Benefits and Assistance",
+          "evidence": "approved beneficiaries will receive a one-time financial benefit of ₹50,000 directly credited via Direct Benefit Transfer (DBT)",
+          "structured": {
+            "benefit_type": "financial",
+            "amount": "50000",
+            "currency": "INR",
+            "frequency": "one-time",
+            "conditions": "to support micro-enterprise capitalization and raw material procurement"
+          }
+        },
+        "eligibility_conditions": {
+          "value": "Female individual aged 21-55, state resident for 3 years, annual family income <= ₹3,00,000",
+          "status": "found",
+          "page": 1,
+          "section": "3. Target Beneficiaries & Eligibility Criteria",
+          "evidence": "female individual aged between 21 and 55 years at the date of application"
+        },
+        "required_documents": {
+          "value": "Aadhaar Card, Proof of Residence, Udyam Registration Certificate, Bank Passbook copy",
+          "status": "found",
+          "page": 2,
+          "section": "4. Mandatory Required Documents",
+          "evidence": "Valid Aadhaar Card for proof of identity and biometric verification"
+        },
+        "application_procedure": {
+          "value": "Submit application online via official state welfare citizen service portal with Aadhaar OTP authentication",
+          "status": "found",
+          "page": 2,
+          "section": "5. Application Procedure",
+          "evidence": "Eligible applicants must submit applications online via the official state welfare citizen service portal."
+        },
+        "deadline": {
+          "value": "2026-12-31",
+          "status": "found",
+          "page": 2,
+          "section": "6. Application Deadline",
+          "evidence": "The deadline for receipt of applications for the current fiscal cycle is 2026-12-31 at 23:59 hours IST."
+        },
+        "official_link": {
+          "value": "https://example-state-portal.gov.invalid/schemes/women-entrepreneurship",
+          "status": "found",
+          "page": 2,
+          "section": "7. Official Portal & Reference Link",
+          "evidence": "The official portal link for electronic registration is: https://example-state-portal.gov.invalid/schemes/women-entrepreneurship"
+        }
+      }
+    },
+    "SCHEME-002": {
+      "scheme_ref": "SCHEME-002",
+      "source_id": "DOC-002",
+      "document_filename": "doc_b_hindi_scheme.pdf",
+      "language": "hi",
+      "document_type": "digital_pdf",
+      "expected_fields": {
+        "scheme_name": {
+          "value": "मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना",
+          "status": "found",
+          "page": 1,
+          "section": "Title",
+          "evidence": "मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना"
+        },
+        "department": {
+          "value": "कुटीर एवं ग्रामोद्योग विभाग",
+          "status": "found",
+          "page": 1,
+          "section": "1. संबंधित विभाग",
+          "evidence": "यह योजना राज्य के कुटीर एवं ग्रामोद्योग विभाग द्वारा संचालित की जा रही है।"
+        },
+        "benefits": {
+          "value": "25000",
+          "status": "found",
+          "page": 1,
+          "section": "2. योजना के लाभ",
+          "evidence": "पात्र कारीगरों को टूलकिट एवं कार्यशील पूंजी हेतु ₹25,000 की एकमुश्त वित्तीय अनुदान सहायता बैंक खाते में प्रदान की जाएगी।",
+          "structured": {
+            "benefit_type": "grant",
+            "amount": "25000",
+            "currency": "INR",
+            "frequency": "one-time",
+            "conditions": "टूलकिट एवं कार्यशील पूंजी हेतु"
+          }
+        },
+        "eligibility_conditions": {
+          "value": "राज्य का मूल निवासी, आयु 18 से 60 वर्ष, पारंपरिक ग्रामीण हस्तशिल्प सक्रिय कारीगर",
+          "status": "found",
+          "page": 1,
+          "section": "3. पात्रता शर्तें",
+          "evidence": "आवेदक की आयु 18 वर्ष से 60 वर्ष के मध्य होनी चाहिए।"
+        },
+        "required_documents": {
+          "value": "आधार कार्ड, राज्य निवास प्रमाण पत्र, बैंक पासबुक, हस्तशिल्पी कारीगर पहचान पत्र",
+          "status": "found",
+          "page": 2,
+          "section": "4. आवश्यक दस्तावेज",
+          "evidence": "आधार कार्ड की छायाप्रति।"
+        },
+        "application_procedure": {
+          "value": "ग्राम पंचायत अथवा जिला उद्योग केंद्र (DIC) में भौतिक आवेदन अथवा ऑनलाइन ई-मित्र पोर्टल",
+          "status": "found",
+          "page": 2,
+          "section": "5. आवेदन प्रक्रिया",
+          "evidence": "ग्राम पंचायत कार्यालय अथवा जिला उद्योग केंद्र (DIC) में निर्धारित प्रारूप में भौतिक आवेदन पत्र जमा कर सकते हैं"
+        },
+        "deadline": {
+          "value": "31 मार्च 2027",
+          "status": "found",
+          "page": 2,
+          "section": "6. आवेदन की अंतिम तिथि",
+          "evidence": "योजना में पंजीकरण करने की अंतिम तिथि 31 मार्च 2027 निर्धारित की गई है।"
+        },
+        "official_link": {
+          "value": "https://example-state-gramudyog.gov.invalid/schemes/rural-handicraft",
+          "status": "found",
+          "page": 2,
+          "section": "7. आधिकारिक वेबसाइट लिंक",
+          "evidence": "विभागीय आधिकारिक सूचना एवं पोर्टल लिंक: https://example-state-gramudyog.gov.invalid/schemes/rural-handicraft"
+        }
+      }
+    },
+    "SCHEME-003": {
+      "scheme_ref": "SCHEME-003",
+      "source_id": "DOC-003",
+      "document_filename": "doc_c_scanned_scheme.pdf",
+      "language": "en",
+      "document_type": "scanned_pdf",
+      "expected_fields": {
+        "scheme_name": {
+          "value": "Krishi Protsahan & High-Yield Seed Support Initiative",
+          "status": "found",
+          "page": 1,
+          "section": "Title",
+          "evidence": "KRISHI PROTSAHAN & HIGH-YIELD SEED SUPPORT INITIATIVE"
+        },
+        "department": {
+          "value": "Department of Agriculture & Farmer Empowerment",
+          "status": "found",
+          "page": 1,
+          "section": "1. Administering Department",
+          "evidence": "administered directly by the Department of Agriculture and Farmer Empowerment."
+        },
+        "benefits": {
+          "value": "12000",
+          "status": "found",
+          "page": 1,
+          "section": "2. Scheme Financial Benefits",
+          "evidence": "annual financial assistance of Rs 12,000 for purchasing certified high-yield seeds and bio-fertilizers",
+          "structured": {
+            "benefit_type": "subsidy",
+            "amount": "12000",
+            "currency": "INR",
+            "frequency": "annual",
+            "conditions": "purchasing certified high-yield seeds and bio-fertilizers"
+          }
+        },
+        "eligibility_conditions": {
+          "value": "Resident farmer owning < 2 hectares agricultural land, Kisan Credit Card and bank account seeded with Aadhaar",
+          "status": "found",
+          "page": 1,
+          "section": "3. Eligibility Criteria",
+          "evidence": "owning cultivable agricultural land of less than 2 hectares."
+        },
+        "required_documents": {
+          "value": "Land Record Patta / RoR certificate, Aadhaar Card copy, Bank Passbook, self-declaration",
+          "status": "found",
+          "page": 1,
+          "section": "4. Required Documents",
+          "evidence": "Land Record Patta / RoR certificate, Aadhaar Card copy, Bank Passbook"
+        },
+        "application_procedure": {
+          "value": "Submit physical form at Block Agriculture Office or Common Service Centre (CSC)",
+          "status": "found",
+          "page": 1,
+          "section": "5. Application Procedure",
+          "evidence": "submitted in physical form at the local Block Agriculture Office or via the Common Service Centre"
+        },
+        "deadline": {
+          "value": "2026-11-30",
+          "status": "found",
+          "page": 1,
+          "section": "6. Submission Deadline",
+          "evidence": "strict deadline for submitting applications for the Kharif cycle is 2026-11-30."
+        },
+        "official_link": {
+          "value": "https://example-state-agri.gov.invalid/initiatives/krishi-seed-support",
+          "status": "found",
+          "page": 1,
+          "section": "7. Official Information Link",
+          "evidence": "https://example-state-agri.gov.invalid/initiatives/krishi-seed-support"
+        }
+      }
+    }
+  },
+  "conflicts": [
+    {
+      "conflict_id": "CONF-001",
+      "scheme_ref": "SCHEME-001",
+      "field": "benefits",
+      "source_1": {
+        "source_id": "DOC-001",
+        "source_name": "doc_a_english_scheme.pdf",
+        "source_type": "government_pdf",
+        "captured_at": "2026-10-30",
+        "value": "50000",
+        "evidence_text": "approved beneficiaries will receive a one-time financial benefit of ₹50,000 directly credited via Direct Benefit Transfer (DBT)",
+        "page": 1
+      },
+      "source_2": {
+        "source_id": "CAT-001",
+        "source_name": "doc_a_catalogue_listing.json",
+        "source_type": "catalogue_listing",
+        "captured_at": "2026-10-15",
+        "value": "40000",
+        "evidence_text": "Beneficiaries under this listing are eligible for a one-time grant assistance of Rs 40,000 for seed venture setup.",
+        "page": 1
+      },
+      "expected_resolution": "unresolved_until_human_review"
+    }
+  ]
+}

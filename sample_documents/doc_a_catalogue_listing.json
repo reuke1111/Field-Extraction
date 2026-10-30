@@ -1,0 +1,25 @@
+{
+  "source_metadata": {
+    "source_id": "CAT-001",
+    "source_name": "Synthetic Welfare Scheme Catalogue Listing",
+    "source_type": "catalogue_listing",
+    "source_url": "https://example-catalogue.invalid/schemes/state-women-entrepreneurship",
+    "captured_at": "2026-10-15",
+    "is_synthetic": true,
+    "disclaimer": "SYNTHETIC / FICTIONAL CATALOGUE LISTING FOR CONFLICT DETECTION TESTING"
+  },
+  "scheme_ref": "SCHEME-001",
+  "scheme_name": "State Women Entrepreneurship Assistance Scheme",
+  "department": "Department of Women Development and Social Welfare",
+  "benefit_amount": "40000",
+  "benefit_type": "financial",
+  "benefit_frequency": "one-time",
+  "benefit_currency": "INR",
+  "evidence_quote": "Beneficiaries under this listing are eligible for a one-time grant assistance of Rs 40,000 for seed venture setup.",
+  "section": "Benefits",
+  "eligibility_conditions": "Women entrepreneurs aged 21-55 years with annual family income below Rs 3,00,000.",
+  "required_documents": "Aadhaar Card, Residence proof, Bank account details, Udyam registration certificate.",
+  "application_procedure": "Apply online through the State Citizen Portal.",
+  "deadline": "2026-12-31",
+  "official_link": "https://example-state-portal.gov.invalid/schemes/women-entrepreneurship"
+}

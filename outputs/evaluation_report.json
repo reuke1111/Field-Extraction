@@ -1,0 +1,278 @@
+{
+  "summary": {
+    "eval_id": "EVAL-771AB373",
+    "run_timestamp": "2026-10-30 08:23:09",
+    "dataset_size_schemes": 3,
+    "total_fields_evaluated": 24,
+    "overall_accuracy": 1.0,
+    "overall_precision": 1.0,
+    "overall_recall": 1.0,
+    "overall_f1": 1.0,
+    "evidence_validity_rate": 1.0,
+    "conflict_detection_recall": 1.0,
+    "quality_gates": {
+      "accuracy_target_met": true,
+      "evidence_target_met": true,
+      "conflict_target_met": true
+    },
+    "format_breakdown": {
+      "english_digital": {
+        "accuracy": 1.0,
+        "fields_evaluated": 8
+      },
+      "hindi_digital": {
+        "accuracy": 1.0,
+        "fields_evaluated": 8
+      },
+      "scanned_pdf": {
+        "accuracy": 1.0,
+        "fields_evaluated": 8
+      }
+    }
+  },
+  "schemes": {
+    "SCHEME-001": {
+      "scheme_name": "State Women Entrepreneurship Assistance Scheme",
+      "document_type": "digital_pdf",
+      "language": "en",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "evidence_validity_rate": 1.0,
+        "true_positives": 8,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "field_evaluations": {
+          "scheme_name": {
+            "extracted_value": "State Women Entrepreneurship Assistance Scheme",
+            "expected_value": "State Women Entrepreneurship Assistance Scheme",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.98
+          },
+          "department": {
+            "extracted_value": "Department of Women Development and Social Welfare",
+            "expected_value": "Department of Women Development and Social Welfare",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.96
+          },
+          "benefits": {
+            "extracted_value": "50000",
+            "expected_value": "50000",
+            "match": true,
+            "status": "conflict",
+            "evidence_verified": true,
+            "confidence": 0.98
+          },
+          "eligibility_conditions": {
+            "extracted_value": "Female individual aged 21-55 years, 3 years state residency, family income <= ₹3,00,000",
+            "expected_value": "Female individual aged 21-55, state resident for 3 years, annual family income <= ₹3,00,000",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.95
+          },
+          "required_documents": {
+            "extracted_value": "Aadhaar Card, Proof of Residence, Udyam Registration Certificate, Bank Passbook copy",
+            "expected_value": "Aadhaar Card, Proof of Residence, Udyam Registration Certificate, Bank Passbook copy",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.94
+          },
+          "application_procedure": {
+            "extracted_value": "Apply online via official state welfare citizen service portal with Aadhaar OTP authentication",
+            "expected_value": "Submit application online via official state welfare citizen service portal with Aadhaar OTP authentication",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.95
+          },
+          "deadline": {
+            "extracted_value": "2026-12-31",
+            "expected_value": "2026-12-31",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.97
+          },
+          "official_link": {
+            "extracted_value": "https://example-state-portal.gov.invalid/schemes/women-entrepreneurship",
+            "expected_value": "https://example-state-portal.gov.invalid/schemes/women-entrepreneurship",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.99
+          }
+        }
+      }
+    },
+    "SCHEME-002": {
+      "scheme_name": "मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना",
+      "document_type": "digital_pdf",
+      "language": "hi",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "evidence_validity_rate": 1.0,
+        "true_positives": 8,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "field_evaluations": {
+          "scheme_name": {
+            "extracted_value": "मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना",
+            "expected_value": "मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.98
+          },
+          "department": {
+            "extracted_value": "कुटीर एवं ग्रामोद्योग विभाग",
+            "expected_value": "कुटीर एवं ग्रामोद्योग विभाग",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.96
+          },
+          "benefits": {
+            "extracted_value": "25000",
+            "expected_value": "25000",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.99
+          },
+          "eligibility_conditions": {
+            "extracted_value": "राज्य का मूल निवासी, आयु 18 से 60 वर्ष, पारंपरिक ग्रामीण हस्तशिल्प सक्रिय कारीगर",
+            "expected_value": "राज्य का मूल निवासी, आयु 18 से 60 वर्ष, पारंपरिक ग्रामीण हस्तशिल्प सक्रिय कारीगर",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.95
+          },
+          "required_documents": {
+            "extracted_value": "आधार कार्ड, राज्य निवास प्रमाण पत्र, बैंक पासबुक, हस्तशिल्पी कारीगर पहचान पत्र",
+            "expected_value": "आधार कार्ड, राज्य निवास प्रमाण पत्र, बैंक पासबुक, हस्तशिल्पी कारीगर पहचान पत्र",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.94
+          },
+          "application_procedure": {
+            "extracted_value": "ग्राम पंचायत अथवा जिला उद्योग केंद्र (DIC) में भौतिक आवेदन अथवा विभागीय पोर्टल",
+            "expected_value": "ग्राम पंचायत अथवा जिला उद्योग केंद्र (DIC) में भौतिक आवेदन अथवा ऑनलाइन ई-मित्र पोर्टल",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.95
+          },
+          "deadline": {
+            "extracted_value": "31 मार्च 2027",
+            "expected_value": "31 मार्च 2027",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.97
+          },
+          "official_link": {
+            "extracted_value": "https://example-state-gramudyog.gov.invalid/schemes/rural-handicraft",
+            "expected_value": "https://example-state-gramudyog.gov.invalid/schemes/rural-handicraft",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.99
+          }
+        }
+      }
+    },
+    "SCHEME-003": {
+      "scheme_name": "Krishi Protsahan & High-Yield Seed Support Initiative",
+      "document_type": "scanned_pdf",
+      "language": "en",
+      "metrics": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "evidence_validity_rate": 1.0,
+        "true_positives": 8,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "field_evaluations": {
+          "scheme_name": {
+            "extracted_value": "Krishi Protsahan & High-Yield Seed Support Initiative",
+            "expected_value": "Krishi Protsahan & High-Yield Seed Support Initiative",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.84
+          },
+          "department": {
+            "extracted_value": "Department of Agriculture & Farmer Empowerment",
+            "expected_value": "Department of Agriculture & Farmer Empowerment",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.83
+          },
+          "benefits": {
+            "extracted_value": "12000",
+            "expected_value": "12000",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.86
+          },
+          "eligibility_conditions": {
+            "extracted_value": "Resident farmer owning < 2 hectares agricultural land, Kisan Credit Card and bank account seeded with Aadhaar",
+            "expected_value": "Resident farmer owning < 2 hectares agricultural land, Kisan Credit Card and bank account seeded with Aadhaar",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.81
+          },
+          "required_documents": {
+            "extracted_value": "Land Record Patta / RoR certificate, Aadhaar Card copy, Bank Passbook, self-declaration",
+            "expected_value": "Land Record Patta / RoR certificate, Aadhaar Card copy, Bank Passbook, self-declaration",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.82
+          },
+          "application_procedure": {
+            "extracted_value": "Submit physical form at local Block Agriculture Office or Common Service Centre (CSC)",
+            "expected_value": "Submit physical form at Block Agriculture Office or Common Service Centre (CSC)",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.83
+          },
+          "deadline": {
+            "extracted_value": "2026-11-30",
+            "expected_value": "2026-11-30",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.84
+          },
+          "official_link": {
+            "extracted_value": "https://example-state-agri.gov.invalid/initiatives/krishi-seed-support",
+            "expected_value": "https://example-state-agri.gov.invalid/initiatives/krishi-seed-support",
+            "match": true,
+            "status": "found",
+            "evidence_verified": true,
+            "confidence": 0.86
+          }
+        }
+      }
+    }
+  }
+}

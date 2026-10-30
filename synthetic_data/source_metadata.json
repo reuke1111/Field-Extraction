@@ -1,0 +1,34 @@
+{
+  "DOC-001": {
+    "source_id": "DOC-001",
+    "filename": "doc_a_english_scheme.pdf",
+    "source_type": "government_pdf",
+    "scheme_ref": "SCHEME-001",
+    "captured_at": "2026-10-30",
+    "expected_language": "en"
+  },
+  "DOC-002": {
+    "source_id": "DOC-002",
+    "filename": "doc_b_hindi_scheme.pdf",
+    "source_type": "government_pdf",
+    "scheme_ref": "SCHEME-002",
+    "captured_at": "2026-10-30",
+    "expected_language": "hi"
+  },
+  "DOC-003": {
+    "source_id": "DOC-003",
+    "filename": "doc_c_scanned_scheme.pdf",
+    "source_type": "government_pdf",
+    "scheme_ref": "SCHEME-003",
+    "captured_at": "2026-10-30",
+    "expected_language": "en"
+  },
+  "CAT-001": {
+    "source_id": "CAT-001",
+    "filename": "doc_a_catalogue_listing.json",
+    "source_type": "catalogue_listing",
+    "scheme_ref": "SCHEME-001",
+    "captured_at": "2026-10-15",
+    "expected_language": "en"
+  }
+}

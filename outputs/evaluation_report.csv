@@ -1,0 +1,25 @@
+Scheme Ref,Scheme Name,Field,Extracted Value,Expected Value,Match,Status,Evidence Verified,Confidence
+SCHEME-001,State Women Entrepreneurship Assistance Scheme,scheme_name,State Women Entrepreneurship Assistance Scheme,State Women Entrepreneurship Assistance Scheme,YES,found,YES,0.98
+SCHEME-001,State Women Entrepreneurship Assistance Scheme,department,Department of Women Development and Social Welfare,Department of Women Development and Social Welfare,YES,found,YES,0.96
+SCHEME-001,State Women Entrepreneurship Assistance Scheme,benefits,50000,50000,YES,conflict,YES,0.98
+SCHEME-001,State Women Entrepreneurship Assistance Scheme,eligibility_conditions,"Female individual aged 21-55 years, 3 years state residency, family income <= ₹3,00,000","Female individual aged 21-55, state resident for 3 years, annual family income <= ₹3,00,000",YES,found,YES,0.95
+SCHEME-001,State Women Entrepreneurship Assistance Scheme,required_documents,"Aadhaar Card, Proof of Residence, Udyam Registration Certificate, Bank Passbook copy","Aadhaar Card, Proof of Residence, Udyam Registration Certificate, Bank Passbook copy",YES,found,YES,0.94
+SCHEME-001,State Women Entrepreneurship Assistance Scheme,application_procedure,Apply online via official state welfare citizen service portal with Aadhaar OTP authentication,Submit application online via official state welfare citizen service portal with Aadhaar OTP authentication,YES,found,YES,0.95
+SCHEME-001,State Women Entrepreneurship Assistance Scheme,deadline,2026-12-31,2026-12-31,YES,found,YES,0.97
+SCHEME-001,State Women Entrepreneurship Assistance Scheme,official_link,https://example-state-portal.gov.invalid/schemes/women-entrepreneurship,https://example-state-portal.gov.invalid/schemes/women-entrepreneurship,YES,found,YES,0.99
+SCHEME-002,मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना,scheme_name,मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना,मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना,YES,found,YES,0.98
+SCHEME-002,मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना,department,कुटीर एवं ग्रामोद्योग विभाग,कुटीर एवं ग्रामोद्योग विभाग,YES,found,YES,0.96
+SCHEME-002,मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना,benefits,25000,25000,YES,found,YES,0.99
+SCHEME-002,मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना,eligibility_conditions,"राज्य का मूल निवासी, आयु 18 से 60 वर्ष, पारंपरिक ग्रामीण हस्तशिल्प सक्रिय कारीगर","राज्य का मूल निवासी, आयु 18 से 60 वर्ष, पारंपरिक ग्रामीण हस्तशिल्प सक्रिय कारीगर",YES,found,YES,0.95
+SCHEME-002,मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना,required_documents,"आधार कार्ड, राज्य निवास प्रमाण पत्र, बैंक पासबुक, हस्तशिल्पी कारीगर पहचान पत्र","आधार कार्ड, राज्य निवास प्रमाण पत्र, बैंक पासबुक, हस्तशिल्पी कारीगर पहचान पत्र",YES,found,YES,0.94
+SCHEME-002,मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना,application_procedure,ग्राम पंचायत अथवा जिला उद्योग केंद्र (DIC) में भौतिक आवेदन अथवा विभागीय पोर्टल,ग्राम पंचायत अथवा जिला उद्योग केंद्र (DIC) में भौतिक आवेदन अथवा ऑनलाइन ई-मित्र पोर्टल,YES,found,YES,0.95
+SCHEME-002,मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना,deadline,31 मार्च 2027,31 मार्च 2027,YES,found,YES,0.97
+SCHEME-002,मुख्यमंत्री ग्रामीण हस्तशिल्प प्रोत्साहन योजना,official_link,https://example-state-gramudyog.gov.invalid/schemes/rural-handicraft,https://example-state-gramudyog.gov.invalid/schemes/rural-handicraft,YES,found,YES,0.99
+SCHEME-003,Krishi Protsahan & High-Yield Seed Support Initiative,scheme_name,Krishi Protsahan & High-Yield Seed Support Initiative,Krishi Protsahan & High-Yield Seed Support Initiative,YES,found,YES,0.84
+SCHEME-003,Krishi Protsahan & High-Yield Seed Support Initiative,department,Department of Agriculture & Farmer Empowerment,Department of Agriculture & Farmer Empowerment,YES,found,YES,0.83
+SCHEME-003,Krishi Protsahan & High-Yield Seed Support Initiative,benefits,12000,12000,YES,found,YES,0.86
+SCHEME-003,Krishi Protsahan & High-Yield Seed Support Initiative,eligibility_conditions,"Resident farmer owning < 2 hectares agricultural land, Kisan Credit Card and bank account seeded with Aadhaar","Resident farmer owning < 2 hectares agricultural land, Kisan Credit Card and bank account seeded with Aadhaar",YES,found,YES,0.81
+SCHEME-003,Krishi Protsahan & High-Yield Seed Support Initiative,required_documents,"Land Record Patta / RoR certificate, Aadhaar Card copy, Bank Passbook, self-declaration","Land Record Patta / RoR certificate, Aadhaar Card copy, Bank Passbook, self-declaration",YES,found,YES,0.82
+SCHEME-003,Krishi Protsahan & High-Yield Seed Support Initiative,application_procedure,Submit physical form at local Block Agriculture Office or Common Service Centre (CSC),Submit physical form at Block Agriculture Office or Common Service Centre (CSC),YES,found,YES,0.83
+SCHEME-003,Krishi Protsahan & High-Yield Seed Support Initiative,deadline,2026-11-30,2026-11-30,YES,found,YES,0.84
+SCHEME-003,Krishi Protsahan & High-Yield Seed Support Initiative,official_link,https://example-state-agri.gov.invalid/initiatives/krishi-seed-support,https://example-state-agri.gov.invalid/initiatives/krishi-seed-support,YES,found,YES,0.86
